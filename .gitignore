@@ -1,0 +1,12 @@
+# Secrets : ne jamais versionner (mots de passe, clés)
+.env
+*.p8
+*.pem
+
+# Fichier du personnel : jamais dans un dépôt public, même fictif.
+# Les deux CSV se prennent dans le kit du brief (starter-kit/data/) et se déposent sur le stage depuis Snowsight.
+data/
+*.csv
+
+# Système
+.DS_Store
